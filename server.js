@@ -5,7 +5,7 @@ const sendMail = require("./utils/semdMail");
 const app = express();
 
 const corsOptions = {
-    origin: "*",
+    origin: "http://nowstart.co",
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
